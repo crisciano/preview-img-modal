@@ -4,18 +4,11 @@ Function in jquery, to view as images after a click, open a model in bootstrap a
 
 ## Code sample
 
-Function...
-
-```javascript
-$('.marker').Bookmark();
-```
-
 NOTE: It is always good to remember that you have to put a function below jquery.
 
 ```javascript
 <script src = "// ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"> </script>
 ```
-
 
 ## Motivation
 
