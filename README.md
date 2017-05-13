@@ -29,7 +29,7 @@ It was created due to a business demand.
 
 #PT-Br
 
-## Sinopse ===================================================================== ###
+## Sinopse
 
 Function em jquery, para visualizar as imagens após um click, abrir um modal em bootstrap e exibir a img, e podendo trocar para a seguinte ou anterior quando aberto o modal, tem algumas melhorias a se fazer, que será feito na sequencia ou até mesmo recebendo sugestões de melhorias.
 
