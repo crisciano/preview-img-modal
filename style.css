@@ -1,0 +1,7 @@
+/** css para modal */
+
+#img-view button.close{    position: absolute; top: 15px; right: 20px;}
+#img-view .close{font-size: 40px; color: #441666; opacity: 1; text-shadow: none;}
+#img-view .modal-content{    background: transparent; box-shadow: none; border: none;}
+#img-view .modal-footer {border-top: none;}
+#img-view .modal-footer { padding: 0 15px;}

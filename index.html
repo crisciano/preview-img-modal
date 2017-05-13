@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<meta name="author" content="Crisciano S. Botelho">
+	<title>Preview img modal</title>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<link href="css/style.css" rel="stylesheet" type="text/css" media="all">
+</head>
+<body>
+
+	<!-- html  -->
+	<section>
+		<div class="container">
+			<div class="row">
+				<a class="img" data-img="img/img-1.jpg" data-pos="5">
+				    <div class="col-sm-12 thumbnail-wrapper shadow  pd-0">
+				        <img src="img/img-1.jpg" alt="" class="img-responsive">
+				    </div>
+				</a>
+			</div>
+		</div>
+	</section>
+
+
+	<!-- modal bootstrap -->
+	<div class="modal fade" id="img-view" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
+	  <div class="modal-dialog" role="document">
+	    <div class="modal-content">
+	      <div class="modal-body">
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+
+	        <img src="" id="img-get" class="img-responsive" width="700px" alt="">
+	        
+	      </div>
+	      <div class="modal-footer">
+	        <button type="button" class="btn btn-default btn-pre">
+	            <i class="fa fa-2x fa-angle-left" aria-hidden="true"></i>
+	        </button>
+	        <button type="button" class="btn btn-primary btn-pro">
+	            <i class="fa fa-2x fa-angle-right" aria-hidden="true"></i>
+	        </button>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+	<script src="js/scripts.js"></script>
+</body>
+</html>
